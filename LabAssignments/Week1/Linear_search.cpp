@@ -23,13 +23,13 @@ int main(){
 		int cnt=0;
 		int fl=0;
 		
-		for(int i:ar) 
+		for(int i:ar){
 			cnt++;
 			if(i==key){
-			 fl=1;
-			 break;
-		    }
-	
+			   fl=1;
+			   break;
+		   	 }
+		}
 		if(fl){
 			cout<<"Present "<<cnt<<"\n";
 		}else{
