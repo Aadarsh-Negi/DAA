@@ -48,8 +48,8 @@ int main(){
 			else l=mid+1;
 		}
 		
-		if(f==-1) cout<<"Not present";
-		else cout<<key<<" - "<<(ls-f+1);
+		if(f==-1) cout<<"Not present\n";
+		else cout<<key<<" - "<<(ls-f+1)<<"\n";
 		
 	
 		
