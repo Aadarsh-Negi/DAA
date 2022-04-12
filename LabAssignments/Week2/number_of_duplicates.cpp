@@ -49,7 +49,7 @@ int main(){
 		}
 		
 		if(f==-1) cout<<"Not present";
-		else cout<<(ls-f+1);
+		else cout<<key<<" - "<<(ls-f+1);
 		
 	
 		
